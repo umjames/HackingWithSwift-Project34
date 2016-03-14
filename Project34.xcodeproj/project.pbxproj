@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD8F2FBD1C965D8200E31326 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8F2FBC1C965D8200E31326 /* Board.swift */; };
 		FDCF27261C96193B00590EDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCF27251C96193B00590EDE /* AppDelegate.swift */; };
 		FDCF27281C96193B00590EDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCF27271C96193B00590EDE /* ViewController.swift */; };
 		FDCF272B1C96193B00590EDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDCF27291C96193B00590EDE /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD8F2FBC1C965D8200E31326 /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
 		FDCF27221C96193B00590EDE /* Project34.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project34.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDCF27251C96193B00590EDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDCF27271C96193B00590EDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				FDCF272C1C96193B00590EDE /* Assets.xcassets */,
 				FDCF272E1C96193B00590EDE /* LaunchScreen.storyboard */,
 				FDCF27311C96193B00590EDE /* Info.plist */,
+				FD8F2FBC1C965D8200E31326 /* Board.swift */,
 			);
 			path = Project34;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			files = (
 				FDCF27281C96193B00590EDE /* ViewController.swift in Sources */,
 				FDCF27261C96193B00590EDE /* AppDelegate.swift in Sources */,
+				FD8F2FBD1C965D8200E31326 /* Board.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +290,7 @@
 				FDCF27361C96193B00590EDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

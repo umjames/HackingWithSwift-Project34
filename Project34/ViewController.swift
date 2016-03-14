@@ -9,10 +9,20 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet var columnButtons: [UIButton]!
+    
+    var placedChips = [[UIView]]()
+    var board: Board!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        for _ in 0 ..< Board.width {
+            placedChips.append([UIView]())
+        }
+        
+        resetBoard()
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +30,19 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func makeMove(sender: UIButton) {
+    }
 
+    func resetBoard() {
+        board = Board()
+        
+        for i in 0 ..< placedChips.count {
+            for chip in placedChips[i] {
+                chip.removeFromSuperview()
+            }
+            
+            placedChips[i].removeAll(keepCapacity: true)
+        }
+    }
 }
 
